@@ -1,14 +1,9 @@
 "use client"
 
 import Link from "next/link"
-import { Bungee, Bebas_Neue } from "next/font/google"
+import { Bebas_Neue } from "next/font/google"
 import { usePathname } from "next/navigation"
 import { ComponentProps, ReactNode, useState } from "react"
-
-const bungee = Bungee({
-  weight: ["400"],
-  subsets: ["latin"],
-})
 
 const bebas = Bebas_Neue({
   weight: "400",
@@ -36,7 +31,7 @@ export function Navbar({ children }: { children: ReactNode }) {
         </div>
         <div className={`dimmer ${hamburgerMenu ? "opened" : ""}`}></div>
         <div
-          className={`navmenu flex gap-4 ml-auto items-center justify-center ${
+          className={`navmenu flex gap-6 ml-auto items-center justify-center ${
             hamburgerMenu ? "opened" : ""
           } ${bebas.className}`}
         >

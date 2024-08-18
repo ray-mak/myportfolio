@@ -16,11 +16,18 @@ const config: Config = {
       colors: {
         bgRetro: "#fbf5e9",
         bgRetroDark: "#E3DDCD",
-        retroBlue: "#77B7B7",
+        retroBlue: "#6DB8A1",
         retroSalmon: "#E28967",
         retroRed: "#E23D27",
         retroGray: "#4C5157",
         darkBlue: "#224A4A",
+      },
+      boxShadow: {
+        darkBlue: "15px 15px 0px 0px rgba(34,74,74,1)",
+        solidBlack: "6px 6px 0px 0px rgba(0,0,0,1)",
+      },
+      screens: {
+        xs: "450px",
       },
     },
   },
