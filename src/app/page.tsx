@@ -1,6 +1,7 @@
 import { Bebas_Neue, Bungee } from "next/font/google"
 import Image from "next/image"
 import Link from "next/link"
+import WorkSection from "./components/WorkSection"
 
 const bungee = Bungee({
   weight: ["400"],
@@ -14,12 +15,14 @@ const bebas = Bebas_Neue({
 
 export default function HomePage() {
   return (
-    <div className="md:mt-32 md:w-5/6 lg:w-2/3">
-      <div className="flex flex-col md:grid md:grid-cols-3 gap-8 p-6 md:p-0">
+    <div className="md:mt-32 flex flex-col items-center">
+      <section className="md:w-5/6 lg:w-2/3 mb-8 md:mb-32 flex flex-col md:grid md:grid-cols-3 gap-8 p-6 md:p-0">
         <div className="flex flex-col gap-2 md:text-lg col-span-2 text-neutral-600">
           <p>
             Hi, <br></br>
-            My name is <span className={`font-bold`}>Raymond</span>, and I'm a
+            My name is{" "}
+            <span className={`font-bold text-neutral-800`}>Raymond</span> and
+            I'm a
           </p>
           <p
             className={`text-4xl md:text-6xl text-darkBlue py-2 leading-[1.15] text-center md:text-left ${bungee.className}`}
@@ -52,7 +55,7 @@ export default function HomePage() {
           <div className="flex flex-col items-center justify-center md:justify-start xs:flex-row mt-6 mb-4 md:mb-0 md:mt-12 gap-4 xl:gap-10">
             <Link
               href="/projects"
-              className={`w-fit px-6 py-2 bg-retroBlue text-black border-2 border-black text-sm lg:text-lg hover:scale-105 shadow-solidBlack ${bungee.className}`}
+              className={`w-fit px-6 py-2 bg-retroBlue text-black border-2 border-black text-sm lg:text-lg hover:translate-y-1 hover:translate-x-1 hover:shadow-smBlack transition shadow-solidBlack ${bungee.className}`}
             >
               View my Projects
             </Link>
@@ -74,7 +77,8 @@ export default function HomePage() {
             />
           </div>
         </div>
-      </div>
+      </section>
+      <WorkSection />
     </div>
   )
 }

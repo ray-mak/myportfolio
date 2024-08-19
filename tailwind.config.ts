@@ -25,6 +25,7 @@ const config: Config = {
       boxShadow: {
         darkBlue: "15px 15px 0px 0px rgba(34,74,74,1)",
         solidBlack: "6px 6px 0px 0px rgba(0,0,0,1)",
+        smBlack: "2px 2px 0px 0px rgba(0,0,0,1)",
       },
       screens: {
         xs: "450px",
