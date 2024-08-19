@@ -19,7 +19,7 @@ const config: Config = {
         retroBlue: "#6DB8A1",
         retroSalmon: "#E28967",
         retroRed: "#E23D27",
-        retroGray: "#4C5157",
+        retroGray: "#DEDAD9",
         darkBlue: "#224A4A",
       },
       boxShadow: {

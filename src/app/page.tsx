@@ -2,6 +2,7 @@ import { Bebas_Neue, Bungee } from "next/font/google"
 import Image from "next/image"
 import Link from "next/link"
 import WorkSection from "./components/WorkSection"
+import SkillsSection from "./components/Skills"
 
 const bungee = Bungee({
   weight: ["400"],
@@ -79,6 +80,7 @@ export default function HomePage() {
         </div>
       </section>
       <WorkSection />
+      <SkillsSection />
     </div>
   )
 }
