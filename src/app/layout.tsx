@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import { Roboto } from "next/font/google"
 import "./globals.css"
 import { Navbar, NavLink } from "./components/Navbar"
+import Footer from "./components/Footer"
 
 const roboto = Roboto({
   weight: ["100", "300", "400", "500", "700", "900"],
@@ -20,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`bg-bgRetro ${roboto.className}`}>
+      <body className={`bg-bgRetro min-h-screen ${roboto.className}`}>
         <Navbar>
           <NavLink href="/">Home</NavLink>
           <NavLink href="/projects">Projects</NavLink>
@@ -34,6 +35,7 @@ export default function RootLayout({
             </div>
           </div>
         </main>
+        <Footer />
       </body>
     </html>
   )

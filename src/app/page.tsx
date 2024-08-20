@@ -3,6 +3,7 @@ import Image from "next/image"
 import Link from "next/link"
 import WorkSection from "./components/WorkSection"
 import SkillsSection from "./components/Skills"
+import ContactSection from "./components/Contact"
 
 const bungee = Bungee({
   weight: ["400"],
@@ -81,6 +82,7 @@ export default function HomePage() {
       </section>
       <WorkSection />
       <SkillsSection />
+      <ContactSection />
     </div>
   )
 }

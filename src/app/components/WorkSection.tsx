@@ -33,7 +33,7 @@ export default function WorkSection() {
                   Express
                 </p>
                 <p className="text-white border border-white px-2 py-1 hover:cursor-pointer hover:text-black hover:bg-white">
-                  NodeJS
+                  Node
                 </p>
                 <p className="text-white border border-white px-2 py-1 hover:cursor-pointer hover:text-black hover:bg-white">
                   MongoDB
@@ -41,7 +41,7 @@ export default function WorkSection() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-2 p-2">
             <p className={`text-3xl font-semibold ${bebas.className}`}>
               Sportfolio
             </p>
@@ -86,13 +86,13 @@ export default function WorkSection() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-2 p-2">
             <p className={`text-3xl font-semibold ${bebas.className}`}>
               Gen.PT Chef
             </p>
             <p>
-              A tracking app that allows users to track their betting history,
-              analyze and compare their results with other users.
+              Recipe generator with a twist! Generate innovative recipes and
+              share them with the community.
             </p>
             <Link
               href="/projects"
@@ -116,29 +116,21 @@ export default function WorkSection() {
                   React
                 </p>
                 <p className="text-white border border-white px-2 py-1 hover:cursor-pointer hover:text-black hover:bg-white">
-                  React
+                  Node
                 </p>
                 <p className="text-white border border-white px-2 py-1 hover:cursor-pointer hover:text-black hover:bg-white">
-                  Typescript
-                </p>
-              </div>
-              <div className="flex gap-4 text-sm xl:text-base">
-                <p className="text-white border border-white px-2 py-1 hover:cursor-pointer hover:text-black hover:bg-white">
-                  TailwindCSS
-                </p>
-                <p className="text-white border border-white px-2 py-1 hover:cursor-pointer hover:text-black hover:bg-white">
-                  MongoDB
+                  Express
                 </p>
               </div>
             </div>
           </div>
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col flex-grow gap-2 p-2">
             <p className={`text-3xl font-semibold ${bebas.className}`}>
               Translatable
             </p>
             <p>
-              A tracking app that allows users to track their betting history,
-              analyze and compare their results with other users.
+              A translation app that transcribes speech and translates to the
+              desired language.
             </p>
             <Link
               href="/projects"
