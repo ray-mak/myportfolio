@@ -8,7 +8,7 @@ export default function AboutPage() {
   return (
     <>
       <Backnav />
-      <div className="flex flex-col my-8 md:my-20 justify-center items-center">
+      <div className="flex flex-col my-8 md:my-20 justify-center items-center text-gray-900 dark:text-gray-200">
         <div className="grid gap-4 md:grid-cols-2 w-full md:w-5/6 2xl:w-1/2 p-4 xl:p-0 ">
           <div className="flex flex-col gap-4">
             <h1 className="text-3xl font-bold">About me</h1>
@@ -16,9 +16,11 @@ export default function AboutPage() {
               I am a front-end developer passionate about building innovative
               websites with dynamic user interfaces.
             </p>
-            I transitioned from a middle management role at a wholesaler to
-            pursue my passion for software development as a self-taught
-            developer.
+            <p>
+              I transitioned from a middle management role at a wholesaler to
+              pursue my passion for software development as a self-taught
+              developer.
+            </p>
             <p>
               Software development provides an outlet for my creative
               problem-solving and passion for building—elements that were
@@ -30,7 +32,6 @@ export default function AboutPage() {
               occasional fetch quests.
             </p>
             <p>
-              {" "}
               In my spare time, I train and analyze MMA, lift weights,
               experiment with new recipes, practice languages, and grow quirky
               vegetables.
@@ -48,11 +49,9 @@ export default function AboutPage() {
           </div>
         </div>
       </div>
-      <section className="flex flex-col items-center p-4 lg:p-0">
+      <section className="flex flex-col items-center p-4 lg:p-0 text-gray-900 dark:text-gray-200">
         <div className="w-full md:w-5/6 2xl:w-1/2 flex flex-col gap-4">
-          <h2 className={`text-2xl text-black font-semibold text-left`}>
-            Contact
-          </h2>
+          <h2 className={`text-2xl font-semibold text-left`}>Contact</h2>
           <div className="flex flex-col gap-4">
             <p>
               I am constantly looking learn and grow in the software development

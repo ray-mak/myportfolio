@@ -16,18 +16,21 @@ export function Navbar({ children }: { children: ReactNode }) {
     setHamburgerMenu((prevState) => !prevState)
   }
   return (
-    <nav className="navbar flex w-full h-16 p-4 md:p-0 flex items-center justify-center bg-bgRetroDark shadow-xl">
+    <nav className="navbar flex w-full h-16 p-4 md:p-0 flex items-center justify-center bg-bgRetroDark dark:bg-bgRetroDarkMode shadow-xl">
       <div className="w-full md:w-5/6 lg:w-2/3 flex">
-        <Link href="/" className={`text-4xl font-bold ${bebas.className}`}>
+        <Link
+          href="/"
+          className={`text-4xl font-bold text-darkBlue dark:text-retroBlueDarkMode ${bebas.className}`}
+        >
           R.Mak
         </Link>
         <div
           onClick={toggleHamburger}
           className={`hamburger ${hamburgerMenu ? "opened" : ""}`}
         >
-          <span className="bar bg-darkBlue"></span>
-          <span className="bar bg-darkBlue"></span>
-          <span className="bar bg-darkBlue"></span>
+          <span className="bar bg-darkBlue dark:bg-retroBlueDarkMode"></span>
+          <span className="bar bg-darkBlue dark:bg-retroBlueDarkMode"></span>
+          <span className="bar bg-darkBlue dark:bg-retroBlueDarkMode"></span>
         </div>
         <div className={`dimmer ${hamburgerMenu ? "opened" : ""}`}></div>
         <div
@@ -47,8 +50,11 @@ export function NavLink(props: Omit<ComponentProps<typeof Link>, "className">) {
   return (
     <Link
       {...props}
-      className={`text-3xl font-bold text-darkBlue ${bebas.className} ${
-        pathname === props.href && "underline text-retroRed"
+      className={`text-3xl font-bold text-darkBlue dark:text-retroBlueDarkMode ${
+        bebas.className
+      } ${
+        pathname === props.href &&
+        "underline text-retroRed dark:text-retroRedDarkMode"
       }`}
     />
   )

@@ -12,11 +12,11 @@ export default function ContactSection() {
   return (
     <section id="contact" className="flex flex-col items-center p-16">
       <h2
-        className={`text-5xl text-black text-center mb-12 ${bebas.className}`}
+        className={`text-5xl text-black dark:text-gray-100 text-center mb-12 ${bebas.className}`}
       >
         Contact
       </h2>
-      <div className="w-2/3 lg:w-1/2 flex flex-col gap-4">
+      <div className="w-2/3 lg:w-1/2 flex flex-col gap-4 dark:text-gray-200">
         <p className="md:text-lg">
           I am constantly looking learn and grow in the software development
           industry. Feel free to reach out if you want to build something

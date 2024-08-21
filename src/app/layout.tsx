@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import { Roboto } from "next/font/google"
 import "./globals.css"
 import { Navbar, NavLink } from "./components/Navbar"
+import { Providers } from "@/providers"
 
 const roboto = Roboto({
   weight: ["100", "300", "400", "500", "700", "900"],
@@ -19,8 +20,12 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
-      <body className={`bg-bgRetro ${roboto.className}`}>{children}</body>
+    <html lang="en" suppressHydrationWarning>
+      <body
+        className={`bg-bgRetro dark:bg-bgDarkMode transition-colors duration-300 ${roboto.className}`}
+      >
+        <Providers>{children}</Providers>
+      </body>
     </html>
   )
 }

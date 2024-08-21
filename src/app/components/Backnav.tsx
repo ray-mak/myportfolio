@@ -2,6 +2,7 @@ import Link from "next/link"
 import { Bebas_Neue } from "next/font/google"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons"
+import ThemeSwitch from "./ThemeSwitch"
 
 const bebas = Bebas_Neue({
   weight: "400",
@@ -10,8 +11,8 @@ const bebas = Bebas_Neue({
 
 export function Backnav() {
   return (
-    <nav className="flex w-full h-16 p-4 md:p-0 flex items-center justify-center bg-bgRetroDark shadow-xl">
-      <div className="w-full md:w-5/6 2xl:w-1/2 flex">
+    <nav className="flex w-full h-16 p-4 md:p-0 flex items-center justify-center bg-bgRetroDark dark:bg-bgRetroDarkMode text-gray-900 dark:text-gray-200 shadow-xl">
+      <div className="w-full md:w-5/6 2xl:w-1/2 flex items-center gap-6 ">
         <Link href="/" className={`text-4xl font-bold ${bebas.className}`}>
           R.Mak
         </Link>
@@ -21,6 +22,7 @@ export function Backnav() {
           </div>
           <p className="text-lg">Back</p>
         </Link>
+        <ThemeSwitch />
       </div>
     </nav>
   )

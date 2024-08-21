@@ -9,6 +9,7 @@ import { Navbar, NavLink } from "./components/Navbar"
 import Footer from "./components/Footer"
 import { useRef } from "react"
 import HeroSection from "./components/HeroSection"
+import ThemeSwitch from "./components/ThemeSwitch"
 
 const bungee = Bungee({
   weight: ["400"],
@@ -29,6 +30,7 @@ export default function HomePage() {
         <NavLink href="/#work">Projects</NavLink>
         <NavLink href="/#contact">Contact</NavLink>
         <NavLink href="/about">About</NavLink>
+        <ThemeSwitch />
       </Navbar>
       <main>
         <div className="flex">
