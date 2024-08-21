@@ -1,6 +1,5 @@
 import Image from "next/image"
 import { Backnav } from "../components/Backnav"
-import ContactSection from "../components/Contact"
 import Link from "next/link"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"

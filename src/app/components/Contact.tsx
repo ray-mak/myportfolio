@@ -10,7 +10,7 @@ const bebas = Bebas_Neue({
 
 export default function ContactSection() {
   return (
-    <section className="flex flex-col items-center p-16">
+    <section id="contact" className="flex flex-col items-center p-16">
       <h2
         className={`text-5xl text-black text-center mb-12 ${bebas.className}`}
       >
