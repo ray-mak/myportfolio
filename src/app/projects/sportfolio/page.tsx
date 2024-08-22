@@ -1,20 +1,12 @@
-"use client"
 import {
   SportfolioImage2,
   SportfolioImage3,
   SportfolioImage4,
   SportfolioImage5,
 } from "@/app/about/_components/Images"
-import Image from "next/image"
 import Link from "next/link"
-import { useState } from "react"
 
 export default function SportfolioPage() {
-  const [isZoomed, setIsZoomed] = useState<boolean>(false)
-
-  const handleImageClick = () => {
-    setIsZoomed(!isZoomed)
-  }
   return (
     <div className="w-full flex flex-col gap-10">
       <h1 className="text-4xl font-bold">Sportfolio</h1>
