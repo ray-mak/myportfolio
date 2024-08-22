@@ -10,14 +10,19 @@ const bebas = Bebas_Neue({
 export default function WorkSection() {
   return (
     <section
-      id="work"
+      id="projects"
       className="bg-retroSalmon dark:bg-retroSalmonDarkMode w-full flex flex-col items-center gap-8 py-16 px-6"
     >
-      <h2 className={`text-5xl text-gray-100 ${bebas.className}`}>My Work</h2>
+      <h2 className={`text-5xl text-gray-100 ${bebas.className}`}>Projects</h2>
       <div className="md:w-5/6 2xl:w-2/3 grid grid-cols-1 xl:grid-cols-3 gap-10">
         <div className="card-container bg-bgRetroDark dark:bg-bgDarkMode p-2 flex flex-col sm:flex-row xl:flex-col gap-6 xl:gap-4 shadow-solidBlack hover:translate-y-1 hover:translate-x-1 hover:shadow-smBlack transition">
           <div className="relative w-full h-auto aspect-video overflow-hidden">
-            <Image src="/sportfolio.png" fill alt="Picture of Sportfolio app" />
+            <Image
+              src="/sportfolio.webp"
+              fill
+              alt="Picture of Sportfolio app"
+              className="object-cover"
+            />
             <div className="overlay "></div>
             <div className="text-container absolute w-full h-full flex flex-col items-center justify-center gap-4">
               <div className="flex gap-4 text-sm xl:text-base">
@@ -49,11 +54,12 @@ export default function WorkSection() {
               Sportfolio
             </p>
             <p>
-              A tracking app that allows users to track their betting history,
-              analyze and compare their results with other users.
+              A simulator and tracking app that allows users to track their
+              betting history, analyze and compare their results with other
+              users.
             </p>
             <Link
-              href="/projects"
+              href="/projects/sportfolio"
               className="mt-auto font-semibold underline text-darkBlue dark:text-gray-100 opacity-90 hover:opacity-70"
             >
               View Project
@@ -62,7 +68,12 @@ export default function WorkSection() {
         </div>
         <div className="card-container bg-bgRetroDark dark:bg-bgDarkMode p-2 flex flex-col sm:flex-row xl:flex-col gap-6 xl:gap-4 shadow-solidBlack hover:translate-y-1 hover:translate-x-1 hover:shadow-smBlack transition">
           <div className="relative w-full h-auto aspect-video overflow-hidden">
-            <Image src="/genptchef.png" fill alt="Picture of Sportfolio app" />
+            <Image
+              src="/genptchef.png"
+              fill
+              alt="Picture of Sportfolio app"
+              className="object-cover"
+            />
             <div className="overlay "></div>
             <div className="text-container absolute w-full h-full flex flex-col items-center justify-center gap-4">
               <div className="flex gap-4 text-sm xl:text-base">
@@ -98,7 +109,7 @@ export default function WorkSection() {
               share them with the community.
             </p>
             <Link
-              href="/projects"
+              href="/projects/genptchef"
               className="mt-auto font-semibold underline text-darkBlue dark:text-gray-100 opacity-90 hover:opacity-70"
             >
               View Project
@@ -111,6 +122,7 @@ export default function WorkSection() {
               src="/translatable.jpg"
               fill
               alt="Picture of Sportfolio app"
+              className="object-cover"
             />
             <div className="overlay "></div>
             <div className="text-container absolute w-full h-full flex flex-col items-center justify-center gap-4">
@@ -136,7 +148,7 @@ export default function WorkSection() {
               desired language.
             </p>
             <Link
-              href="/projects"
+              href="/projects/translatable"
               className="mt-auto font-semibold underline text-darkBlue dark:text-gray-100 opacity-90 hover:opacity-70"
             >
               View Project

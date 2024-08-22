@@ -27,7 +27,7 @@ export default function HomePage() {
     <>
       <Navbar>
         <NavLink href="/">Home</NavLink>
-        <NavLink href="/#work">Projects</NavLink>
+        <NavLink href="/#projects">Projects</NavLink>
         <NavLink href="/#contact">Contact</NavLink>
         <NavLink href="/about">About</NavLink>
         <ThemeSwitch />

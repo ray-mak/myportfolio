@@ -38,13 +38,15 @@ export default function AboutPage() {
             </p>
           </div>
           <div className="flex items-center justify-center">
-            <div className="relative w-full max-w-60 md:max-w-80 h-auto max-h-96 aspect-square md:aspect-[3/4] border border-neutral-900 shadow-darkBlue mt-10 md:mt-0">
-              <Image
-                src="/heroimg.jpg"
-                fill
-                alt="Picture of Raymond"
-                className="object-cover"
-              />
+            <div className="relative w-full max-w-60 md:max-w-80 h-auto max-h-96 aspect-square shadow-2xl shadow-gray-500 dark:shadow-gray-950 p-3 bg-white mt-10 md:mt-0">
+              <div className="relative w-full max-w-60 md:max-w-80 h-auto max-h-96 aspect-square">
+                <Image
+                  src="/profile.webp"
+                  fill
+                  alt="Picture of Raymond"
+                  className="object-cover"
+                />
+              </div>
             </div>
           </div>
         </div>

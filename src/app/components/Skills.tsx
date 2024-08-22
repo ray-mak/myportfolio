@@ -13,7 +13,7 @@ const mono = Roboto_Mono({
 
 export default function SkillsSection() {
   return (
-    <section className="w-full flex flex-col items-center py-16 bg-retroGray">
+    <section className="w-full flex flex-col items-center py-16 px-6 bg-retroGray">
       <h2 className={`text-5xl text-black mb-12 ${bebas.className}`}>Skills</h2>
       <div className="md:w-2/3 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-6 text-sm items-center">
         <div className="flex flex-col gap-4 px-8 py-6 bg-white border-2 border-black shadow-solidBlack hover:translate-y-1 hover:translate-x-1 hover:shadow-smBlack transition">

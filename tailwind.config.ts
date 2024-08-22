@@ -27,6 +27,7 @@ const config: Config = {
         retroGray: "#DEDAD9",
         retroGrayDarkMode: "#A6A4A3",
         darkBlue: "#224A4A",
+        blackOpacity: "rgb(0, 0, 0, .8)",
       },
       boxShadow: {
         darkBlue: "15px 15px 0px 0px rgba(34,74,74,1)",

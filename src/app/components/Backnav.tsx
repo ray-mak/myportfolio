@@ -12,7 +12,7 @@ const bebas = Bebas_Neue({
 export function Backnav() {
   return (
     <nav className="flex w-full h-16 p-4 md:p-0 flex items-center justify-center bg-bgRetroDark dark:bg-bgRetroDarkMode text-gray-900 dark:text-gray-200 shadow-xl">
-      <div className="w-full md:w-5/6 2xl:w-1/2 flex items-center gap-6 ">
+      <div className="w-full md:w-3/5 2xl:w-1/2 flex items-center gap-6 ">
         <Link href="/" className={`text-4xl font-bold ${bebas.className}`}>
           R.Mak
         </Link>
