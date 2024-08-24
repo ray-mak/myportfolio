@@ -25,16 +25,13 @@ export default function HomePage() {
   const workRef = useRef<HTMLDivElement>(null)
   return (
     <>
-      <Navbar>
-        <NavLink href="/">Home</NavLink>
-        <NavLink href="/#projects">Projects</NavLink>
-        <NavLink href="/#contact">Contact</NavLink>
-        <NavLink href="/about">About</NavLink>
-        <ThemeSwitch />
-      </Navbar>
+      <Navbar />
       <main>
         <div className="flex">
-          <div className="mt-16 md:mt-0 w-full flex items-center justify-center text-neutral-800">
+          <div
+            id="profile"
+            className="mt-16 md:mt-0 w-full flex items-center justify-center text-neutral-800"
+          >
             <div className="md:mt-32 flex flex-col items-center">
               <HeroSection />
               <WorkSection />

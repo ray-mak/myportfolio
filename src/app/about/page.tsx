@@ -28,13 +28,14 @@ export default function AboutPage() {
               value of lifelong learning and growth.
             </p>
             <p>
-              Much like a dog, I enjoy going on long walks, eating food, and the
-              occasional fetch quests.
-            </p>
-            <p>
               In my spare time, I train and analyze MMA, lift weights,
               experiment with new recipes, practice languages, and grow quirky
               vegetables.
+            </p>
+            <p>
+              My dream is to develop a game that people will play someday. I'm
+              currently working on a turn based game in React if anybody is
+              interested and wants to talk about it!
             </p>
           </div>
           <div className="flex items-center justify-center">

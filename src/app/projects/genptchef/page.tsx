@@ -37,7 +37,26 @@ export default function GenPTChefPage() {
           Repository
         </Link>
       </div>
-      <h2 className=" text-2xl font-semibold">Video Demo</h2>
+      <div>
+        <h2 className=" text-2xl font-semibold">Demo</h2>
+        <p>
+          <Link
+            href="https://genptchef.vercel.app/"
+            className="text-retroBlue underline hover:opacity-80 font-medium"
+            target="_blank"
+          >
+            Click here to see the deployed project.
+          </Link>
+        </p>
+        <div className="relative w-full h-80 mt-6">
+          <iframe
+            allowFullScreen
+            allow="fullscreen"
+            className="w-full h-full"
+            src="https://player.vimeo.com/video/1002141475?muted=1"
+          />
+        </div>
+      </div>
       <div className="flex flex-col gap-5">
         <h2 className=" text-2xl font-semibold">Purpose of the Project</h2>
         <p>

@@ -39,10 +39,31 @@ export default function SportfolioPage() {
           href="https://github.com/ray-mak/sportfolio"
           className="mt-2 text-lg font-medium text-retroBlue hover:underline"
         >
-          Repository
+          View Repository
         </Link>
       </div>
-      <h2 className=" text-2xl font-semibold">Video Demo</h2>
+      <div className="flex flex-col gap-4">
+        <h2 className=" text-2xl font-semibold">Demo</h2>
+        <p>
+          <Link
+            href="https://sport-folio.onrender.com/"
+            className="text-retroBlue underline hover:opacity-80 font-medium"
+            target="_blank"
+          >
+            Click here to see the deployed project.
+          </Link>{" "}
+          The server is hosted on a free account so please allow a few moments
+          for it to wind up.
+        </p>
+        <div className="relative w-full h-80 mt-6">
+          <iframe
+            allowFullScreen
+            allow="fullscreen"
+            className="w-full h-full"
+            src="https://player.vimeo.com/video/1002137952?muted=1"
+          />
+        </div>
+      </div>
       <div className="flex flex-col gap-2">
         <h2 className=" text-2xl font-semibold">Purpose of the Project</h2>
         <p>

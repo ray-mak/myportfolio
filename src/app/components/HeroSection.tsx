@@ -47,15 +47,15 @@ export default function HeroSection() {
         <p>
           I also have experience building full-stack applications using{" "}
           <span className="font-semibold text-neutral-800 dark:text-neutral-200">
-            Prisma
+            Next.js
           </span>
           ,{" "}
           <span className="font-semibold text-neutral-800 dark:text-neutral-200">
-            NextJS
+            TailwindCSS
           </span>
           ,{" "}
           <span className="font-semibold text-neutral-800 dark:text-neutral-200">
-            Tailwind CSS{" "}
+            Prisma{" "}
           </span>
           and everyone's favorite tutorial stack - the{" "}
           <span className="font-semibold text-neutral-800 dark:text-neutral-200">
