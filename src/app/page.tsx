@@ -1,4 +1,3 @@
-"use client"
 import WorkSection from "./components/WorkSection"
 import SkillsSection from "./components/Skills"
 import ContactSection from "./components/Contact"
@@ -6,12 +5,7 @@ import { Navbar } from "./components/Navbar"
 import Footer from "./components/Footer"
 import HeroSection from "./components/HeroSection"
 
-import { onLCP, onINP, onCLS } from "web-vitals"
-
 export default function HomePage() {
-  onCLS(console.log)
-  onINP(console.log)
-  onLCP(console.log)
   return (
     <>
       <Navbar />
