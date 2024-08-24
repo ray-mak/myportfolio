@@ -16,7 +16,7 @@ export default function HeroSection() {
           <span className={`font-bold text-neutral-800 dark:text-neutral-200`}>
             Raymond Mak
           </span>{" "}
-          and I'm a
+          and I{"'"}m a
         </p>
         <p
           className={`text-4xl md:text-6xl text-darkBlue dark:text-retroBlueDarkMode py-2 leading-[1.15] text-center md:text-left ${bungee.className}`}
@@ -57,7 +57,7 @@ export default function HeroSection() {
           <span className="font-semibold text-neutral-800 dark:text-neutral-200">
             Prisma{" "}
           </span>
-          and everyone's favorite tutorial stack - the{" "}
+          and everyone{"'"}s favorite tutorial stack - the{" "}
           <span className="font-semibold text-neutral-800 dark:text-neutral-200">
             MERN
           </span>{" "}

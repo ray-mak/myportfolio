@@ -8,7 +8,7 @@ export default function GenPTChefPage() {
       <div className="flex flex-col gap-5">
         <p>
           GenPT Chef is a recipe generator that creates innovative dishes based
-          on the ingredients users input. It's also a social platform where
+          on the ingredients users input. It{"'"}s also a social platform where
           users can share their recipes and food photos with others.
         </p>
         <p className="mt-2">
@@ -135,7 +135,7 @@ export default function GenPTChefPage() {
         <p>
           This was my first solo project implementing NextJS and TypeScript.
           Using Typescript felt a little clunky at first, but once I got used to
-          it, I found it's ability to keep my code consistent invaluable.
+          it, I found it{"'"}s ability to keep my code consistent invaluable.
         </p>
         <p>
           I also found the structure of NextJS to be very intuitive. The

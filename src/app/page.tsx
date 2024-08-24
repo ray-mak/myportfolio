@@ -1,28 +1,17 @@
 "use client"
-import { Bebas_Neue, Bungee } from "next/font/google"
-import Image from "next/image"
-import Link from "next/link"
 import WorkSection from "./components/WorkSection"
 import SkillsSection from "./components/Skills"
 import ContactSection from "./components/Contact"
-import { Navbar, NavLink } from "./components/Navbar"
+import { Navbar } from "./components/Navbar"
 import Footer from "./components/Footer"
-import { useRef } from "react"
 import HeroSection from "./components/HeroSection"
-import ThemeSwitch from "./components/ThemeSwitch"
 
-const bungee = Bungee({
-  weight: ["400"],
-  subsets: ["latin"],
-})
-
-const bebas = Bebas_Neue({
-  weight: "400",
-  subsets: ["latin"],
-})
+import { onLCP, onINP, onCLS } from "web-vitals"
 
 export default function HomePage() {
-  const workRef = useRef<HTMLDivElement>(null)
+  onCLS(console.log)
+  onINP(console.log)
+  onLCP(console.log)
   return (
     <>
       <Navbar />

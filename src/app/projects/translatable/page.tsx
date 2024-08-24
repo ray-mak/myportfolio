@@ -84,8 +84,8 @@ export default function TranslatablePage() {
         <p>
           After getting Web Speech API set up, I needed to create a dropdown
           that allowed users to search the input out output languages. This
-          required some custom code and a bit of creativity since 'select'
-          elements have limited styling.
+          required some custom code and a bit of creativity since {"<"}select
+          {">"} elements have limited styling.
         </p>
         <p>
           Lastly, since I wanted to deploy this project, I needed to store the

@@ -67,7 +67,7 @@ export default function SportfolioPage() {
       <div className="flex flex-col gap-2">
         <h2 className=" text-2xl font-semibold">Purpose of the Project</h2>
         <p>
-          I've always been fascinated by how sportsbooks generate odds for
+          I{"'"}ve always been fascinated by how sportsbooks generate odds for
           sporting events and matchups. As an avid mixed martial arts fan, I
           enjoy analyzing fights and assigning my own odds based on my
           assessments.
@@ -117,8 +117,8 @@ export default function SportfolioPage() {
           calculate stats.
         </p>
         <p>
-          It's a bit embarrassing to admit, but I encountered situations where
-          numbers were read as strings, leading to errors with mismatched
+          It{"'"}s a bit embarrassing to admit, but I encountered situations
+          where numbers were read as strings, leading to errors with mismatched
           objects. There were also errors that weren’t immediately caught, like
           a component crashing the page due to an API missing a property.
         </p>

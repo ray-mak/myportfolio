@@ -33,9 +33,9 @@ export default function AboutPage() {
               vegetables.
             </p>
             <p>
-              My dream is to develop a game that people will play someday. I'm
-              currently working on a turn based game in React if anybody is
-              interested and wants to talk about it!
+              My dream is to develop a game that people will play someday. I
+              {"'"}m currently working on a turn based game in React if anybody
+              is interested and wants to talk about it!
             </p>
           </div>
           <div className="flex items-center justify-center">
