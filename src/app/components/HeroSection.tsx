@@ -63,7 +63,14 @@ export default function HeroSection() {
           </span>{" "}
           stack.
         </p>
-        <div className="flex flex-col items-center justify-center md:justify-start xs:flex-row mt-6 mb-4 md:mb-0 md:mt-12 gap-4 xl:gap-10">
+        <Link
+          href="/documents/resume.pdf"
+          target="_blank"
+          className="mt-4 text-semibold text-darkBlue font-semibold underline dark:text-retroBlue hover:opacity-80"
+        >
+          View My Resume
+        </Link>
+        <div className="flex flex-col items-center justify-center md:justify-start xs:flex-row mt-6 mb-4 md:mb-0 md:mt-6 gap-4 xl:gap-10">
           <Link
             href="/#work"
             className={`w-fit px-6 py-2 bg-retroBlue text-black border-2 border-black text-sm lg:text-lg hover:translate-y-1 hover:translate-x-1 hover:shadow-smBlack transition shadow-solidBlack ${bungee.className}`}
