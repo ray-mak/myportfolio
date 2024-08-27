@@ -17,26 +17,25 @@ export default function AboutPage() {
               websites with dynamic user interfaces.
             </p>
             <p>
-              I transitioned from a middle management role at a wholesaler to
-              pursue my passion for software development as a self-taught
-              developer.
+              I transitioned from a management role at a wholesaler to pursue my
+              passion for software development as a self-taught developer.
             </p>
             <p>
               Software development provides an outlet for my creative
-              problem-solving and passion for building—elements that were
-              missing in my previous roles. It also aligns with my personal
-              value of lifelong learning and growth.
+              problem-solving and passion for building.
+            </p>
+            <p>
+              I find the whole process quite gratifying, from figuring out how
+              to implement a small feature to creating a product that people can
+              use. It also aligns with my personal value of lifelong learning
+              and growth.
             </p>
             <p>
               In my spare time, I train and analyze MMA, lift weights,
-              experiment with new recipes, practice languages, and grow quirky
-              vegetables.
+              experiment with new recipes, practice languages, and grow funky
+              looking vegetables.
             </p>
-            <p>
-              My dream is to develop a game that people will play someday. I
-              {"'"}m currently working on a turn based game in React if anybody
-              is interested and wants to talk about it!
-            </p>
+            <p>My dream is to develop a game that people will play someday!</p>
           </div>
           <div className="flex items-center justify-center">
             <div className="relative w-full max-w-60 md:max-w-80 h-auto max-h-96 aspect-square shadow-2xl shadow-gray-500 dark:shadow-gray-950 p-3 bg-white mt-10 md:mt-0">
