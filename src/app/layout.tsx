@@ -11,7 +11,7 @@ const roboto = Roboto({
 
 export const metadata: Metadata = {
   title: "Raymond Mak - Front End Developer",
-  description: "Showcasing the work of a frontend/full stack developer.",
+  description: "Showcasing the work of a front end and full stack developer.",
 }
 
 export default function RootLayout({

@@ -1,4 +1,11 @@
+import { Metadata } from "next"
 import { Backnav } from "../components/Backnav"
+
+export const metadata: Metadata = {
+  title: "Raymond Mak - Full Stack and Front End Projects",
+  description:
+    "Check out these projects by Raymond Mak, developed with React, Next.js, and Tailwind CSS.",
+}
 
 export default function WorkLayout({
   children,

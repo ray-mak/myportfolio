@@ -7,6 +7,13 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 export default function AboutPage() {
   return (
     <>
+      <head>
+        <title>Raymond Mak - Web Developer</title>
+        <meta
+          name="description"
+          content="Learn more about Raymond Mak, a full stack web developer who specializes in front end development."
+        />
+      </head>
       <Backnav />
       <div className="flex flex-col my-8 md:my-20 justify-center items-center text-gray-900 dark:text-gray-200">
         <div className="grid gap-4 md:grid-cols-2 w-full md:w-5/6 2xl:w-1/2 p-4 xl:p-0 ">
