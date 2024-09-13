@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react"
 import { useTheme } from "next-themes"
-import { tree } from "next/dist/build/templates/app-page"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons"
 
@@ -14,8 +13,15 @@ export default function ThemeSwitch() {
     setMounted(true)
   }, [])
 
+  if (!mounted) {
+    return (
+      <div className="relative">
+        <div className="w-8 h-4 rounded-3xl"></div>
+      </div>
+    )
+  }
   return (
-    <div className="relative ">
+    <button type="button" className="relative" aria-label="toggle dark mode">
       <div
         className={`${
           resolvedTheme === "light" ? "bg-white" : "bg-slate-600"
@@ -37,6 +43,6 @@ export default function ThemeSwitch() {
           <FontAwesomeIcon icon={faSun} style={{ color: "#556e82" }} />
         )}
       </div>
-    </div>
+    </button>
   )
 }
