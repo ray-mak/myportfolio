@@ -18,6 +18,57 @@ export default function WorkSection() {
         <div className="card-container bg-bgRetroDark dark:bg-bgDarkMode p-2 flex flex-col sm:flex-row xl:flex-col gap-6 xl:gap-4 shadow-solidBlack hover:translate-y-1 hover:translate-x-1 hover:shadow-smBlack transition">
           <div className="relative w-full h-auto aspect-video overflow-hidden">
             <Image
+              src="/codecraftss.png"
+              fill
+              alt="Picture of CodeCraft app"
+              className="object-cover"
+            />
+            <div className="overlay "></div>
+            <div className="text-container absolute w-full h-full flex flex-col items-center justify-center gap-4">
+              <div className="flex gap-4 text-sm xl:text-base">
+                <p className="text-white border border-white px-2 py-1 hover:cursor-pointer hover:text-black hover:bg-white">
+                  NextJS
+                </p>
+                <p className="text-white border border-white px-2 py-1 hover:cursor-pointer hover:text-black hover:bg-white">
+                  React
+                </p>
+                <p className="text-white border border-white px-2 py-1 hover:cursor-pointer hover:text-black hover:bg-white">
+                  Typescript
+                </p>
+              </div>
+              <div className="flex gap-4 text-sm xl:text-base">
+                <p className="text-white border border-white px-2 py-1 hover:cursor-pointer hover:text-black hover:bg-white">
+                  TailwindCSS
+                </p>
+                <p className="text-white border border-white px-2 py-1 hover:cursor-pointer hover:text-black hover:bg-white">
+                  Prisma
+                </p>
+                <p className="text-white border border-white px-2 py-1 hover:cursor-pointer hover:text-black hover:bg-white">
+                  PostGreSQL
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col gap-2 p-2 dark:text-gray-200">
+            <p className={`text-3xl font-semibold ${bebas.className}`}>
+              CodeCraft
+            </p>
+            <p>
+              Custom websites and web applications for small businesses.
+              Featured is a booking system that allows customers to book
+              appointments.
+            </p>
+            <Link
+              href="/projects/codecraft"
+              className="mt-auto font-semibold underline text-darkBlue dark:text-gray-100 opacity-90 hover:opacity-70"
+            >
+              View Project
+            </Link>
+          </div>
+        </div>
+        <div className="card-container bg-bgRetroDark dark:bg-bgDarkMode p-2 flex flex-col sm:flex-row xl:flex-col gap-6 xl:gap-4 shadow-solidBlack hover:translate-y-1 hover:translate-x-1 hover:shadow-smBlack transition">
+          <div className="relative w-full h-auto aspect-video overflow-hidden">
+            <Image
               src="/sportfolio.webp"
               fill
               alt="Picture of Sportfolio app"
@@ -116,7 +167,7 @@ export default function WorkSection() {
             </Link>
           </div>
         </div>
-        <div className="card-container bg-bgRetroDark dark:bg-bgDarkMode p-2 flex flex-col sm:flex-row xl:flex-col gap-6 xl:gap-4 shadow-solidBlack hover:translate-y-1 hover:translate-x-1 hover:shadow-smBlack transition">
+        {/* <div className="card-container bg-bgRetroDark dark:bg-bgDarkMode p-2 flex flex-col sm:flex-row xl:flex-col gap-6 xl:gap-4 shadow-solidBlack hover:translate-y-1 hover:translate-x-1 hover:shadow-smBlack transition">
           <div className="relative w-full h-auto aspect-video overflow-hidden">
             <Image
               src="/translatable.jpg"
@@ -154,7 +205,7 @@ export default function WorkSection() {
               View Project
             </Link>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   )
