@@ -72,7 +72,7 @@ export default function HeroSection() {
         </Link>
         <div className="flex flex-col items-center justify-center md:justify-start xs:flex-row mt-6 mb-4 md:mb-0 md:mt-6 gap-4 xl:gap-10">
           <Link
-            href="/#work"
+            href="/#projects"
             className={`w-fit px-6 py-2 bg-retroBlue text-black border-2 border-black text-sm lg:text-lg hover:translate-y-1 hover:translate-x-1 hover:shadow-smBlack transition shadow-solidBlack ${bungee.className}`}
           >
             View my Projects
